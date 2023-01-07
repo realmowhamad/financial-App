@@ -3,13 +3,14 @@ import style from './Navbar.module.css'
 import { BsBellFill } from 'react-icons/bs'
 import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 
-export default function NavBar() {
+
+export default function NavBar(props) {
     return (
         <div className=" flex items-center justify-center my-3" >
             <div className={`${style.navBarUserInfo} m-2 w-3/6 `}>
                 <div className={`${style.navBarImage} flex items-center justify-center`}>
-                    <div className={`${style.imageContainer} bg-gray-700 p-9 rounded-full `}>
-                        <img src="" alt="" />
+                    <div className={`${style.imageContainer}   `}>
+                        <img src={props.userimage} alt="" className="rounded-full" />
                     </div>
                 </div>
                 <div className={`${style.navBarUserName} flex items-end justify-start px-2 text-gray-700`}>
