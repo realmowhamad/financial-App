@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "Jack Ryder",
+      "userimage": "../assets/images/user.jpg",
+      "account": [
+        {
+          "bankId": "1",
+          "bankTitle": "saman",
+          "cardNum": "6219861057627951",
+          "balance": 566780568,
+          "currency": "IR-Rial",
+          "expire date": "05/10"
+        }
+      ]
+    }
+  ]
+}
