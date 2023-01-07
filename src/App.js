@@ -2,6 +2,7 @@
 import { useRoutes } from 'react-router-dom';
 import './App.css';
 import Routes from './Router/Router';
+import NavBar from './Components/Navbar/Navbar';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
       {routes}
     </div>
   );

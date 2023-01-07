@@ -1,0 +1,22 @@
+.navBarUserInfo{
+
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: repeat(2,1fr);
+
+}
+
+.navBarImage{
+    grid-area: 1/1/3/2;
+}
+
+.navBarUserName{
+    grid-area: 1/2/2/3;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navBarAcount{
+     grid-area: 2/2/3/3;
+}
