@@ -2,17 +2,35 @@
   "users": [
     {
       "userId": 1,
-      "username": "Jack Ryder",
+      "username": "Tom Shelby",
       "userimage": "../assets/images/user.jpg",
       "account": [
         {
           "bankId": "1",
           "bankTitle": "saman",
+          "bankLogo":"../assets/images/sb.png",
+          "bcLogo":"../assets/images/bcSb.png",
           "cardNum": "6219861057627951",
           "balance": 566780568,
           "currency": "IR-Rial",
-          "expire date": "05/10"
+          "expireMonth": "05",
+          "expireYear": "10",
+          "transaction":[]
+       
+        },
+        {
+          "bankId": "2",
+          "bankTitle": "Bank Melli Iran",
+          "bankLogo":"../assets/images/melli.png",
+          "bcLogo":"../assets/images/bcMelli.png",
+          "cardNum": "6037997158987133",
+          "balance": 985472156,
+          "currency": "IR-Rial",
+          "expireMonth": "11",
+          "expireYear": "09",
+          "transaction":[]
         }
+    
       ]
     }
   ]
