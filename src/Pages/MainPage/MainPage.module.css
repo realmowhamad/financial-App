@@ -1,0 +1,9 @@
+.mainPageContainer{
+    background-color: aqua;
+}
+
+.cards button{
+    font-size: 50px;
+    transform: translate(0,50%);
+
+}
